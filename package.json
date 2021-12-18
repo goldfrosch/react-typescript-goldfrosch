@@ -1,15 +1,9 @@
 {
-  "name": "create-react-ts-gold",
-  "version": "1.0.0",
-  "description": "GoldFrosch`s TS+React boilerplate",
-  "main": "index.js",
-  "license": "ISC",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack -w"
-  },
+  "name": "create-react-gold-edition",
+  "version": "0.0.1-SNAPSHOT",
+  "license": "MIT",
   "bin": {
-    "create-gold-app": "./bin/generate-app.js"
+    "create-react-gold-edition": "./bin/generate-app.js"
   },
   "keywords": [
     "react",
@@ -17,10 +11,10 @@
     "typescript",
     "starter"
   ],
-  "author": "",
+  "author": "goldfrosch <goldfrosch@daum.net>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/goldfrosch/React_TypeScript_BoilerPlates"
+    "url": "https://github.com/goldfrosch/react-typescript-goldfrosch.git"
   },
   "dependencies": {
     "webpack": "^5.65.0"

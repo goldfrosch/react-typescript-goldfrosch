@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 const { execSync } = require("child_process");
 const path = require("path");
 const fs = require("fs");
@@ -5,10 +6,12 @@ const fs = require("fs");
 const projectName = process.argv[2];
 const currentPath = process.cwd();
 const projectPath = path.join(currentPath, projectName);
-const GIT_REPO = YOUR_GIT_REPO_URL;
+const GIT_REPO = "https://github.com/goldfrosch/react-typescript-goldfrosch.git";
 
 if (process.argv.length < 3) {
-  console.log("npx create-gold-boilerplate typescript!");
+  console.log("You have to provide a name to your app.");
+  console.log("For example :");
+  console.log("    npx create-my-boilerplate my-app");
   process.exit(1);
 }
 

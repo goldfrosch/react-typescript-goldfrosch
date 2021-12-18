@@ -1,2 +1,3 @@
-# react-typescript-goldfrosch
-배포완료 / yarn create react-typescript-goldfrosch
+# React_TypeScript_BoilerPlates
+
+직접 만든 타입스크립트 BoilerPlates
