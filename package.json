@@ -1,6 +1,6 @@
 {
   "name": "create-gold-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "bin": {
     "create-gold-app": "./bin/generate-app.js"

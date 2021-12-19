@@ -6,12 +6,9 @@ const fs = require("fs");
 const projectName = process.argv[2];
 const currentPath = process.cwd();
 const projectPath = path.join(currentPath, projectName);
-const GIT_REPO = "https://github.com/goldfrosch/react-typescript-goldfrosch.git";
+const GIT_REPO = "https://github.com/goldfrosch/React_TypeScript_BoilerPlates.git";
 
 if (process.argv.length < 3) {
-  console.log("You have to provide a name to your app.");
-  console.log("For example :");
-  console.log("    npx create-my-boilerplate my-app");
   process.exit(1);
 }
 
@@ -41,7 +38,7 @@ async function main() {
     }
 
     console.log("Installing dependencies...");
-    execSync("npm install"); // package.json에 있는 의존성 설치
+    execSync("yarn"); // package.json에 있는 의존성 설치
 
     console.log("Removing useless files");
     execSync("npx rimraf ./.git"); // 이제 보일러플레이트 git과 관련된 내용 제거
