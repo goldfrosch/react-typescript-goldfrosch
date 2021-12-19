@@ -1,9 +1,9 @@
 {
-  "name": "create-react-gold-edition",
-  "version": "0.0.1-SNAPSHOT",
+  "name": "create-gold-app",
+  "version": "0.0.1",
   "license": "MIT",
   "bin": {
-    "create-react-gold-edition": "./bin/generate-app.js"
+    "create-gold-app": "./bin/generate-app.js"
   },
   "keywords": [
     "react",
@@ -14,7 +14,7 @@
   "author": "goldfrosch <goldfrosch@daum.net>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/goldfrosch/react-typescript-goldfrosch.git"
+    "url": "git+https://github.com/goldfrosch/React_TypeScript_BoilerPlates"
   },
   "dependencies": {
     "webpack": "^5.65.0"
