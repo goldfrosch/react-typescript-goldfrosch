@@ -1,6 +1,6 @@
 {
   "name": "create-gold-app",
-  "version": "0.0.2",
+  "version": "1.0.4",
   "license": "MIT",
   "bin": {
     "create-gold-app": "./bin/generate-app.js"
@@ -9,6 +9,11 @@
     "react",
     "boilerplate",
     "typescript",
+    "react-router",
+    "styled-components",
+    "redux",
+    "redux-saga",
+    "react-query",
     "starter"
   ],
   "author": "goldfrosch <goldfrosch@daum.net>",
